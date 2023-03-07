@@ -172,3 +172,43 @@ li a{
     background: -webkit-linear-gradient(left, gray 55%, white 45%);
 
 }
+.photocont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic{
+    max-width: 50%;
+    height: auto;
+
+}
+.material-symbols-outlined{
+    display: inline-block !important;
+    margin-right: 25px;
+    font-size: 32px !important;
+}
+.contactitem{
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+input{
+    display: block;
+    margin-left:2.5vw;
+    height: 35px;
+    width: 95%;
+    margin-top: 20px;
+}
+textarea{
+    
+        display: block;
+        margin-left:2.5vw;
+        height: 35px;
+        width: 95%;
+        margin-top: 20px;
+    
+}
+button{
+    width: 140px;
+}
